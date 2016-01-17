@@ -5,7 +5,7 @@ current version: 0.1
 demo builder at http://keithporcaro.github.io/friendly
 
 ##About
-Friendly is a light serverless form builder with a rules engine and document builder.
+Friendly is a light serverless form builder with a rules engine and document builder. It generates a javascript file that can be pasted, standalone, on any HTML page (whether or not it uses the internet). 
 
 At the moment, it is in a **very** early build state.
 
