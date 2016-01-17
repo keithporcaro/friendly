@@ -1,4 +1,4 @@
-#Friendly
+#Friendly (development branch)
 
 current version: 0.1
 
