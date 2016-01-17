@@ -1,6 +1,7 @@
 #Friendly
 
 current version: 0.1
+demo builder at http://keithporcaro.github.io/friendly
 
 ##About
 Friendly is a form builder with a light rules engine and document builder.
