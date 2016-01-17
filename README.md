@@ -5,7 +5,7 @@ current version: 0.1
 demo builder at http://keithporcaro.github.io/friendly
 
 ##About
-Friendly is a form builder with a light rules engine and document builder.
+Friendly is a light serverless form builder with a rules engine and document builder.
 
 At the moment, it is in a **very** early build state.
 
@@ -95,6 +95,7 @@ API Calls
 Lists
 Math
 Custom element targeting
+Default CSS
 Replace document builder kludge (perhaps with ProseMirror?)
 Visualize question flows
 Single Page option
