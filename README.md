@@ -74,7 +74,7 @@ function packetHandler(e) {
 ```
 
 ##What doesn't work (spoiler: lots of things)
-* At the moment, it doesn't make a difference whether you select short answer, long answer, or number. User will get an <input> field either way. Eventually this will trigger <input> <textarea> and <input type=number> respectively.
+* At the moment, it doesn't make a difference whether you select short answer, long answer, or number. User will get an input field either way. Eventually this will trigger input, textarea, and input type=number, respectively.
 * There's no validation on the form-builder side. So, if there are rules that never resolve, or variables that are improperly matched in the document, errors will result.
 * Currently, this uses base64 encoded strings to build some of the unchanging components of the final packet. This is suboptimal.
 * Back button doesn't work, and all data is lost on a page refresh.
@@ -86,17 +86,17 @@ function packetHandler(e) {
 0.1 - Asker
 
 To-Do:
-Validation
-History
-LocalStorage
-Import
-Expose Variables
-API Calls
-Lists
-Math
-Custom element targeting
-Default CSS
-Replace document builder kludge (perhaps with ProseMirror?)
-Visualize question flows
-Single Page option
-Back button
+* Validation
+* History
+* LocalStorage
+* Import
+* Expose Variables
+* API Calls
+* Lists
+* Math
+* Custom element targeting
+* Default CSS
+* Replace document builder kludge (perhaps with ProseMirror?)
+* Visualize question flows
+* Single Page option
+* Back button
