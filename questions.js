@@ -135,7 +135,7 @@ composer.questionConstructor = {
       m.component(composer.subView[args.question.type()], {parent: args.question.id()}),
 
       m.component(RuleConstructor, {question: args.question}),
-      m("button", {onclick: composer.vm.remove.bind(this, composer.vm.list, args.question)}, "Remove")
+      m("button", {onclick: composer.vm.remove.bind(this, composer.vm.list, args.question.id())}, "Remove")
     ])
   }
 }

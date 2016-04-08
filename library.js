@@ -112,7 +112,7 @@ var entryConstructor = {
 
     //Rule component
     //  m.component(RuleConstructor, {question: args.question}),
-      m("button", {onclick: library.vm.remove.bind(this, library.vm.list, args.question)}, "Remove")
+      m("button", {onclick: library.vm.remove.bind(this, library.vm.list, args.question.id())}, "Remove")
     ])
   }
 }
