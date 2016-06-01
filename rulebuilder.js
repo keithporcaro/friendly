@@ -57,7 +57,7 @@ rules.vm = (function(){
 rules.ruleView = {
   view: function(ctrl, args){
     var rvm = rules.ruleNode(args.node.id())
-    return m("div", {key: args.node.id()},
+    return m(".rule", {key: args.node.id()},
     [
       m("select", {key: args.node.id(), onchange: m.withAttr("value", rvm.question), value: rvm.question()}, [
         m("option", {value: ""}, ""), //quirk to trigger selection instead of auto-assign of default value.
@@ -122,7 +122,7 @@ rules.conditionalView = {
   view: function(ctrl, args){
     var cvm = rules.conditionalNode(args.node.id())
 
-    return m(".container",
+    return m(".conditional",
     m("select", {key: args.node.id(), onchange: m.withAttr("value", cvm.condition), value: cvm.condition()}, [
       m("option", {value:"any"}, "Any of the following are true"),
       m("option", {value:"all"}, "All of the following are true"),
