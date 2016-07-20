@@ -1,6 +1,9 @@
 #Friendly (development branch)
 
 current version: 0.1
+Demo builder at http://keithporcaro.github.io/friendly
+
+demo builder at http://keithporcaro.github.io/friendly
 
 demo builder at http://keithporcaro.github.io/friendly
 
@@ -98,5 +101,8 @@ To-Do:
 * Default CSS
 * Replace document builder kludge (perhaps with ProseMirror?)
 * Visualize question flows
+<<<<<<< HEAD
 * Single Page option
 * Back button
+=======
+>>>>>>> gh-pages

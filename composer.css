@@ -20,3 +20,13 @@ div.value{
   margin: 5px 0px;
   padding: 5px;
 }
+
+.conditional{
+  background-color: rgba(100,100,200,0.15);
+  padding: 10px;
+  margin: 10px;
+}
+
+.rule{
+  padding:5px;
+}
